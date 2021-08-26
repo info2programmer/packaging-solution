@@ -35,6 +35,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 
 $routes->get('/login', 'crm/Authentication::index');
+$routes->get('/dashboard', 'crm/Dashboard::index');
 
 /*
  * --------------------------------------------------------------------
