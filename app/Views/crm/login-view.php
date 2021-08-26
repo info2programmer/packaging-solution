@@ -136,7 +136,7 @@
                                             <label class="custom-control-label" for="remember-me"> Remember Me</label>
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary btn-block" tabindex="4">Sign in</button>
+                                    <a class="btn btn-primary btn-block" tabindex="4" href="<?php echo base_url() ?>/dashboard">Sign in</a>
                                 </form>
                             </div>
                         </div>
