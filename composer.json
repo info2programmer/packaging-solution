@@ -33,6 +33,9 @@
 	"scripts": {
 		"test": "phpunit"
 	},
+	"config": {
+		"platform-check": false
+	},
 	"support": {
 		"forum": "http://forum.codeigniter.com/",
 		"source": "https://github.com/codeigniter4/CodeIgniter4",
